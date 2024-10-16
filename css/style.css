@@ -177,3 +177,8 @@ footer {
   color: #333;
   border-bottom: 2px solid white;
 }
+a {
+  color: #007BFF; /* Use a blue color for links */
+  text-decoration: underline; /* Underline links */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
