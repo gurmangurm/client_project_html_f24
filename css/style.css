@@ -39,6 +39,16 @@ h1, h2, h3 {
   padding: 0.5rem 0;
 }
 
+h1 {
+  color: #FFCB05;
+  font-weight: bold;
+}
+
+h2, h3 {
+  color: #00274C;
+  font-weight: bold;
+}
+
 .skip {
   position: absolute;
   top: -40px;
