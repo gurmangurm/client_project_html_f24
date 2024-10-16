@@ -3,52 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CAPS</title>
 </head>
 <body>
-    <a href = "#main-content">Skip to Main Content</a>
+    <div tabindex="0" class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "caps.html">CAPS</a></li>
-                <li><a href = "cew.html">CEW</a></li>
-                <li><a href = "food_pantry.html">Food Pantry</a></li>
+        <div class="logo-container">
+            <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo">
+        </div>
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="caps.html" class="nav-link active">CAPS</a></li>
+                <li><a href="cew.html" class="nav-link">CEW</a></li>
+                <li><a href="food_pantry.html" class="nav-link">Food Pantry</a></li>
             </ul>
         </nav>
-
-
+        <h1>Welcome to Counseling and Psychological Services (CAPS)</h1>
     </header>
-    <main id="main-content">
-        <h1> Welcome to Counseling and Psychological Services (CAPS)</h1>
-        <p>We are happy to offer both in-person and virtual services. CAPS is committed to creating an environment based on our values of multicultural, multi-disciplinary and multi-theoretical practices that allow our diverse student body to access care, receive high quality services and take positive pathways to mental health.</p>
+    <main class="container" id="main">
+        <section>
+            <p>We are happy to offer both in-person and virtual services. CAPS is committed to creating an environment based on our values of multicultural, multi-disciplinary, and multi-theoretical practices that allow our diverse student body to access care, receive high-quality services, and take positive pathways to mental health.</p>
+            <p>CAPS has a limited number of private spaces available for students to connect with their counselor via telecounseling. Please contact the front desk for more information on those private spaces.</p>
+        </section>
 
-        <p>CAPS has a limited number of private spaces available for students to connect with their counselor via telecounseling. Please contact the front desk for more information on those private spaces.</p>
+        <section>
+            <h2><a href="https://caps.umich.edu/individual-peer-counseling">Individual Peer Counseling</a></h2>
+            <p>Individual peer counseling is a service provided by CAPS that allows students to talk to other students who are trained to provide support. This service is free and confidential.</p>
+        </section>
 
-        <h2> <a href= "https://caps.umich.edu/individual-peer-counseling">Individual Peer Counseling</a></h2>
-        <p>Individual peer counseling is a service provided by CAPS that allows students to talk to other students who are trained to provide support. This service is free and confidential.</p>
+        <section>
+            <h2><a href="https://caps.umich.edu/article/uwill-teletherapy-services">Uwill Teletherapy Services</a></h2>
+            <p>Uwill is an addition to CAPS services that provides students with video, phone, chat, and message sessions with licensed mental health professionals at no cost. This additional counseling option offers students greater flexibility and allows CAPS to expand its service capacity.</p>
+        </section>
 
-        <h2> <a href= "https://caps.umich.edu/article/uwill-teletherapy-services">Uwill Teletherapy Services</a></h2>
-        <p> Uwill is an addition to CAPS services that provides students with video, phone, chat, and message sessions with licensed mental health professionals at no cost. This additional counseling option offers students greater flexibility and allows CAPS to expand its service capacity.</p>
+        <section>
+            <h2><a href="https://caps.umich.edu/article/scope-services">Scope of Services</a></h2>
+            <p>In support of the educational goals of the University and the Division of Student Life, Counseling and Psychological Services (CAPS) provides a range of clinical, preventative, and training services consistent with the practices and standards of a nationally accredited university counseling center. CAPS is committed to creating a safe and supportive environment based on our multicultural, multi-disciplinary, and multi-theoretical values and practices that allow our diverse student body to access care, to receive high-quality services, and to take positive pathways to mental health.</p>
+            <p>Our Front Desk (Michigan Union 4th Floor) is open and ready to help support you -- staff members are available throughout the day to assist you with your needs, answer questions, and get you to the right place. We can be reached by phone at: (734) 764-8312.</p>
+        </section>
 
-        <h2> <a href= "https://caps.umich.edu/article/scope-services">Scope of Services</a></h2>
-        <p>In support of the educational goals of the University and the Division of Student Life, Counseling and Psychological Services (CAPS) provides a range of clinical, preventative, and training services consistent with the practices and standards of a nationally accredited university counseling center. CAPS is committed to creating a safe and supportive environment based on our multicultural, multi-disciplinary and multi-theoretical values and practices that allow our diverse student body to access care, to receive high quality services, and to take positive pathways to mental health.</p>
-
-       <p>Our Front Desk (Michigan Union 4th Floor) is open and ready to help support you -- staff members are available throughout the day to assist you with your needs to answer questions, and get you to the right place. We can be reached by phone at: (734) 764-8312.</p>
-
-       <img src="images/Michigan_Union.jpg" alt="Picture of the Michigan Union Building">
-
-       <p>Please Note: During high-demand periods, CAPS will be unable to accommodate class-related interviews and/or projects. Many students are able to find the information they need within our website and our annual reports.</p>
-
-        <img src="images/classroom_scene.jpg" alt="Image of an ongoing classroom lecture">
+        <section>
+            <img src="images/Michigan_Union.jpg" alt="Picture of the Michigan Union Building">
+            <p>Please Note: During high-demand periods, CAPS will be unable to accommodate class-related interviews and/or projects. Many students are able to find the information they need within our website and our annual reports.</p>
+            <img src="images/classroom_scene.jpg" alt="Image of an ongoing classroom lecture">
+        </section>
     </main>
     <footer>
         <p>University Health & Counseling:</p>
-            <p>CAPS Counseling and Psychological Services</p>
-            <p>Michigan Union, Suite 4079</p>
-            <p>530 South State Street</p>
-            <p>Ann Arbor, MI 48109</p>
-        </footer>
+        <p>CAPS Counseling and Psychological Services</p>
+        <p>Michigan Union, Suite 4079</p>
+        <p>530 South State Street</p>
+        <p>Ann Arbor, MI 48109</p>
+    </footer>
 </body>
 </html>
