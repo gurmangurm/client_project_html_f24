@@ -182,7 +182,7 @@ footer {
   border-bottom: 2px solid white;
 }
 a {
-  color: #03458d;
+  color: #033f80;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
@@ -196,26 +196,26 @@ a {
 
 a:focus {
   background-color: #e6f2ff;
-  color: #0056b3;
+  color: #033f80;
 }
 
 .skip {
   position: absolute;
   top: -40px;
   left: 0;
-  background-color: #00274C; /* Dark blue background */
-  color: white; /* Ensures the text is white */
+  background-color: #00274C;
+  color: white;
   padding: 1rem;
   transition: top 0.3s;
 }
 
 .skip a {
-  color: white; /* This will ensure the link text remains white */
-  text-decoration: none; /* Remove underline by default */
+  color: white;
+  text-decoration: none;
 }
 
 .skip:focus,
 .skip a:focus {
   top: 0;
-  text-decoration: underline; /* Adds underline on focus */
+  text-decoration: underline;
 }
