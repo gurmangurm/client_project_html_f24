@@ -219,3 +219,104 @@ a:focus {
   top: 0;
   text-decoration: underline;
 }
+
+
+
+
+/* Layout for tablet/desktop screens */
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    max-width: 150px;
+    max-height: auto;
+  }
+
+  .nav-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .nav-list li {
+    margin: 0 15px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+    display: block;
+  }
+
+  .nav-list li a:hover,
+  .nav-list li a:focus {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+
+  .main-title {
+    font-size: 24px;
+    color: #FFCB05;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+    order: -1;
+  }
+
+  .nav-list a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #333;
+    border-bottom: 2px solid white;
+  }
+
+/* Scroll-to-Top Button */
+.floating-action-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #00274C;
+  color: #FFCB05;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  outline: 2px solid #FFCB05;
+  transition: opacity 0.3s ease, background-color 0.3s;
+}
+
+.floating-action-btn:hover {
+  background-color: #00529B;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+  outline: 2px solid #FFF;
+}
+}
